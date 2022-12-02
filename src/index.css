@@ -27,9 +27,12 @@ button {
     rgba(184, 84, 232, 1) 100%);
   border-radius: 3rem;
   border: none;
+  transition: .4s;
+  transform: scale(.9);
 }
 
 button:hover {
+  transform: scale(1);
   background: linear-gradient(
     90deg, 
     rgba(184, 84, 232, 1) 0%,
