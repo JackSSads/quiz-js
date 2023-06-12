@@ -3,8 +3,7 @@
 Para executar este aplicativo, certifique-se de atender aos requisitos mínimos a seguir:
 
 - Ter um gerenciador de pacotes instalado, como __npm__ ou __yarn__. Caso não tenha acesse um dos links a seguir:
-__NPM__:
-__YARN__:
+__NPM__:https://nodejs.org/en/download __YARN__:https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
 - Ter suas credenciais do GitHub configuradas na máquina para baixar o projeto via HTTPS ou baixar o arquivo ZIP.
 
 ## Como baixar o repositório
