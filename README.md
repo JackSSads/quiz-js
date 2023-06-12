@@ -2,7 +2,7 @@
 
 Para executar este aplicativo, certifique-se de atender aos requisitos mínimos a seguir:
 
-- Ter um gerenciador de pacotes instalado, como npm ou yarn.
+- Ter um gerenciador de pacotes instalado, como __npm__ ou __yarn__.
 - Ter suas credenciais do GitHub configuradas na máquina para baixar o projeto via HTTPS ou baixar o arquivo ZIP.
 
 ## Como baixar o repositório
@@ -22,6 +22,7 @@ git config --global.name "<nome_do_usuario_git>"
 ```
 git clone https://github.com/JackSSads/quiz-js.git
 ```
+* Caso opte por baixar o projeto como um arquivo ZIP, extraia os aquivos e pastas e siga os próximos passos.
 
 ## Como rodar o projeto localmente
 
@@ -33,7 +34,7 @@ npm install
 ou
 npm i
 ```
-
+ou
 ```bash
 yarn add
 ```
