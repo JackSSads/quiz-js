@@ -3,7 +3,7 @@ import { QuizContext } from "../../context/quiz";
 
 import "./Options.css";
 
-const Options = ({ options, answer, selectOption }) => {
+export const Options = ({ options, answer, selectOption }) => {
     const [quizState, dispatch] = useContext(QuizContext);
 
     return (
@@ -15,7 +15,5 @@ const Options = ({ options, answer, selectOption }) => {
         onClick={() => selectOption()}>
             <p>{options}</p>
         </div>
-    )
-}
-
-export default Options
+    );
+};

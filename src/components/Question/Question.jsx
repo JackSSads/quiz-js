@@ -1,14 +1,15 @@
 import { useContext } from "react";
+
 import { QuizContext } from "../../context/quiz";
 
-import Options from "../Options/Options";
+import { Options } from "../Options/Options";
 
-import "./Question.css"
+import "./Question.css";
 
-const Question = () => {
+export const Question = () => {
 
     const [quizState, dispatch] = useContext(QuizContext);
-    const currentQuestion = quizState.questions[quizState.currentQuestion]
+    const currentQuestion = quizState.questions[quizState.currentQuestion];
 
     const onSelectOprion = (options) => {
         dispatch({
@@ -16,8 +17,8 @@ const Question = () => {
             payload: {
                 answer: currentQuestion.answer, options
             },
-        })
-    }
+        });
+    };
 
     return (
         <div id="question">
@@ -37,7 +38,5 @@ const Question = () => {
                 <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })} >Continuar</button>
             )}
         </div>
-    )
-}
-
-export default Question
+    );
+};
