@@ -2,16 +2,18 @@
 
 Para executar este aplicativo, certifique-se de atender aos requisitos mínimos a seguir:
 
-- Ter um gerenciador de pacotes instalado, como __npm__ ou __yarn__.
+- Ter um gerenciador de pacotes instalado, como __npm__ ou __yarn__. Caso não tenha acesse um dos links a seguir:
+__NPM__:
+__YARN__:
 - Ter suas credenciais do GitHub configuradas na máquina para baixar o projeto via HTTPS ou baixar o arquivo ZIP.
 
 ## Como baixar o repositório
 
-Siga estas etapas para baixar o repositório em seu computador:
+1° - Siga estas etapas para baixar o repositório em seu computador:
 
-1. Abra um terminal (PowerShell, Git Bash ou outro de sua preferência) na pasta de sua escolha.
+- Abra um terminal (PowerShell, Git Bash ou outro de sua preferência) na pasta de sua escolha.
 
-2. Configure suas credenciais do GitHub executando os seguintes comandos:
+- Configure suas credenciais do GitHub executando os seguintes comandos:
 
 ```bash
 git config --global.email "<email_do_guithub>"
@@ -22,7 +24,7 @@ git config --global.name "<nome_do_usuario_git>"
 ```
 git clone https://github.com/JackSSads/quiz-js.git
 ```
-* Caso opte por baixar o projeto como um arquivo ZIP, extraia os aquivos e pastas e siga os próximos passos.
+- Caso opte por baixar o projeto como um arquivo ZIP, extraia os aquivos e pastas e siga os próximos passos.
 
 ## Como rodar o projeto localmente
 
